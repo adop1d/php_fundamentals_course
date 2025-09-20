@@ -1,8 +1,8 @@
 <?php
 
-function greet ($name = "guest"): string {
-    return "Hello, " . $name . "!";
-}
+$greet = function($name = "you")  {
+    echo "Hello, $name";
+};
 
 
 function add (int $a, int $b): int {
@@ -11,4 +11,5 @@ function add (int $a, int $b): int {
 
 echo add ("5","8");
 echo "\n";
-echo greet ("Kelvin");
+
+$greet();
