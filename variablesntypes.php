@@ -1,6 +1,5 @@
 <?php
 
-$text = "not found";
-$status = "404 ". $text;
+$status = (int)"404 ";
 
 var_dump( $status );
