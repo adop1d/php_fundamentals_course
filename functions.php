@@ -13,3 +13,6 @@ echo add ("5","8");
 echo "\n";
 
 $greet();
+
+
+?>

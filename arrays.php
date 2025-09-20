@@ -15,3 +15,6 @@ if (($colors) > 2) {
 var_dump ($colors);
 unset($colors[3]);
 var_dump($colors);
+
+
+?>
